@@ -1,0 +1,1 @@
+# Threat mapping schema documentation
