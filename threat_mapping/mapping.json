@@ -1,7 +1,0 @@
-{
-  "category": "<define threat category>",
-  "definition": "<category definition>",
-  "keywords": [
-    {"pattern": "<keyword or regex>", "severity": "<level>"}
-  ]
-}

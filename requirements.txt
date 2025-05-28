@@ -1,1 +1,4 @@
-# Python dependencies for the project
+beautifulsoup4
+requests
+pillow
+boto3

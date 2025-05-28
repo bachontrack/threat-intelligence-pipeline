@@ -1,0 +1,20 @@
+{
+  "threat_category": "hate_speech",
+  "keywords": {
+    "n-word": {"severity": "high"},
+    "kill [group]": {"severity": "critical"},
+    "[group] are lazy": {"severity": "medium"}
+  },
+  "patterns": [
+    {
+      "pattern": "\\b(n-word|fag)\\b.*\\b(n-word|fag)\\b",
+      "severity": "high",
+      "description": "Repeated use of slurs"
+    },
+    {
+      "pattern": "\\b(group1|group2)\\b\\s+(should be|must be)\\s+(killed|burned)",
+      "severity": "critical",
+      "description": "Incitement to violence"
+    }
+  ]
+}
